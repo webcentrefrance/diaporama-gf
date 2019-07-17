@@ -1,0 +1,298 @@
+body {
+  	font-family: 'Open Sans', sans-serif;
+  	margin: 0;
+  	padding: 0;
+  	color: #2b2b2b;
+}
+
+h1 {
+	font-family: 'Lora', serif;
+	margin-top: 20px;
+}
+
+h4 {
+	font-weight: bold;
+}
+.container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.top-buffer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.col-md-12 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-md-6:nth-child(odd) {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-md-6:nth-child(even) {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-md-4:nth-child(1) {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-md-4:nth-child(2) {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-md-4:nth-child(3) {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.padding-buff {
+	padding: 30px 30px 0 30px;
+}
+
+.social {
+	width: 70%;
+	margin: auto;
+}
+
+.share{
+	position: relative;
+	display : inline-block;
+	width: 49%;
+	margin-bottom : 20px;
+	background-color: #333;
+}
+
+.share:nth-child(even){
+	background-color: #3A559F;
+}
+
+.share:nth-child(odd){
+	background-color: #50ABF1;
+}
+
+.share img {
+	display:block;	
+	width: 40px;
+	margin: auto;
+}
+
+.head {
+	height: 100vh;
+	position: relative;
+	display: flex;
+	background-position: center !important;
+	flex-direction: column;
+}
+
+.foot {
+	margin-top: 0px;
+	background-color: #0e0e0e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* IMAGE DE UNE */
+#pagetop {
+  background: url(../img/test.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+/* DEUXIEME IMAGE PLEINE LARGEUR (A DUPLIQUER POUR AJOUTER DE NOUVELLES PHOTOS, CHANGER #page2 PAR #page3 ET AINSI DE SUITE, MEME CHOSE DANS index.html) */
+#page2 {
+  background: url(../img/test.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#legende-top {
+	color: white;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#pagebottom {
+	margin-top: 20px;
+}
+
+.content-head {
+	width: 50%;
+	margin: auto;
+}
+
+.content-head h1, .content-head h5 {
+	text-align: center;
+	color: white;
+
+}
+
+.content-head h1 {
+	margin: 0;
+	font-size: 3em;
+	text-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+
+.content-head h5 {
+	font-weight: 100;
+	text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
+.content-head p {
+	color: white;
+}
+
+.content-foot {
+	width: 70%;
+	margin: auto;
+	color: white;
+}
+
+.content-foot p{
+	padding: 30px;
+	margin: 0;
+}
+
+.caption {
+	display: inline-flex;
+	position: absolute;
+	width: 25%;
+}
+
+.caption p {
+	font-family: Lora, serif;
+	color: #222;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 1.2em;
+	padding: 15px;
+	background-color: rgba(227,227,227,0.6);
+	border-radius: 1px;	
+}
+
+.top-left {
+    left: 10%;
+    top: 15%;
+}
+
+.top-right {
+    right: 10%;
+    top: 15%;
+}
+
+.bottom-left {
+	left: 10%;
+    bottom: 15%;
+}
+
+.bottom-right {
+    right: 10%;
+    bottom: 15%;
+}
+
+.content-text {
+	width: 70%;
+	margin: auto;
+}
+
+.content-text h4 {
+	font-family: Lora, serif;
+}
+
+.content-text p {
+	margin-top: 30px;
+}
+
+#social img {
+	width: 30px;
+	margin: 20px 10px 0 0;
+	border-radius: 0px;
+}
+
+audio {
+	width:100%;
+}
+
+.audio {
+	border-radius: 1px;
+	padding: 15px 5px 10px 5px;
+	background-color: #fafafa;
+	border: solid 2px #ebebeb;
+}
+
+.content-text p.legende {
+	color: #666;
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 0px;
+}
+
+video #foo {
+  width: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+	.content-head, #chapo {
+		width: 90%;
+	}
+
+	.col-md-6 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	img {
+		margin : 10px 0 0 0;
+	}
+	.top-buffer {
+		margin: 0 0 0 0;
+	}
+	.content-text {
+		width: 95%;
+	}
+	.caption {
+		width: 90%;
+	}
+	.content-foot {
+		width: 95%;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+	.col-md-6 {
+		padding-bottom: 5px;
+	}
+
+	.col-md-4 {
+		padding-bottom: 5px;
+	}
+}
